@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="zh">
 <head>
-    <title>pagedemo</title>
+    <title>慕言</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <meta name="description" content="这是奋斗日记，欢迎来访！">
+    <meta name="description" content="欢迎来访！">
 
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="./favicon.ico">
@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.css">
     <script type="text/javascript">
-        if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
-            alert('朋友，这边建议您使用edge浏览器呢~');
-        }
-    </script>
+       <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href = "https://upgrade.2lc.top/" </script>
+  
 </head>
 
 <body>
@@ -28,15 +26,14 @@
                     <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js"></script>
                     <script>
                         var typed = new Typed(".blogtitle", {
-                            strings: ['任何不走心的努力都是敷衍你自己。','再小的努力，乘以365都很明显。','低调！才是最牛B的炫耀！','不经一番彻骨寒，哪有梅花扑鼻香?'],
+                            strings: ['我们一直寻找的，却是自己原本早已拥有的；我们总是东张西望，唯独漏了自己想要的。','人自己就是一面镜子，你以什么样的态度对待世界，世界就会呈现给你什么样的景象。','水一旦流深，就会发不出声音。人的感情一旦深厚，也就会显得淡薄。','你只看到了我最后无言转身，从容淡定，但你却没看到我也曾因为你的离开，吃不下饭，睡不着觉，半夜醒来喊着你的名字，然后再告诉自己一切都结束了的样子。'],
                             startDelay: 300,
                             typeSpeed: 100,
                             loop: true,
                             backSpeed: 50,
                             showCursor: true
                         });
-                    </script>
-                </div>
+                    </script></div>
             </div>
         </nav>
         <main id="content-outer">
@@ -48,8 +45,8 @@
                                 <img class="avatar-img"
                                     src="./assets/favicon.ico"
                                     alt="avatar">
-                                <div class="author-info__name"><font color="orange"><b>next</b></font></div>
-                                <!-- <div class="author-info__description">奋斗</div> -->
+                                <div class="author-info__name"><font color="orange"><b>晚风吟</b></font></div>
+                                <!-- <div class="author-info__description">晚风吟</div> -->
                             </div>
                             <div class="card-info-social-icons is-center">
                                 
@@ -120,10 +117,11 @@
                                     <div class="webinfo-site-name">-----</div>
                                     <div class="webinfo-site-pv-count" id="">-----</div>
                                 </div>
-                                <div class="webinfo-item">
+							<div id="div1"></div>
+               <div class="webinfo-item">
                                     <div class="webinfo-site-name">本站已较稳定运行</div>
                                     <div class="webinfo-site-pv-count" id="busuanzi_value_site_pv">
-                                        <span id=span_time>未知</span>
+                                        <span id=span_time>等待服务器响应~</span>
                                         <script language=javascript>
                                             function show_date_time()
                                             {
@@ -144,7 +142,12 @@
                                                 span_time.innerHTML='<font style=color:#C40000>'+daysold+'</font> 天 <font style=color:#C40000>'+hrsold+'</font> 时 <font style=color:#C40000>'+minsold+'</font> 分 <font style=color:#C40000>'+seconds+'</font> 秒';
                                             }
                                             show_date_time();
+											
                                         </script>
+
+
+
+
                                 </div>
                                 </div>
                                 <div class="webinfo-item">
@@ -163,7 +166,7 @@
                 </div>
                 <article id="page">
                     <div class="article-container">
-                        <h2>热歌榜</h2>
+                        <h2>热歌榜(每日更新)</h2>
                         <meting-js auto="https://music.163.com/#/discover/toplist?id=3778678">
                         </meting-js>
                         <hr>
@@ -244,7 +247,8 @@
         </main>
         <footer id="footer">
             <div id="footer-wrap">
-                &copy;2022-2028 Page demo<br>
+                Copyright &amp;2022-2028 慕言 muyan.ml
+ <br>
             </div>
         </footer>
     </div>
@@ -295,14 +299,14 @@
         function email() {
             swal({
                 title: "E-mail",
-                text: "qingfeng@qfmail.tk",
+                text: "love@muyan.ml",
                 buttons: ["复制", true],
             })
             .then((OK) => {
                 if (OK) {
                 }
                 else {
-                    copy("qingfeng@qfmail.tk");
+                    copy("love@muyan.ml");
                 }
             });
         }
